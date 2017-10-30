@@ -1,45 +1,60 @@
 /*
-Error: Invalid CSS after "...rt "ticketbox";": expected "}", was ""
-        on line 64 of styles/style.scss
+Error: Invalid CSS after "...ude font-family": expected selector or at-rule, was ": 'Montserrat',..."
+        on line 1 of cposc/styles/_fonts.scss
+        from line 54 of cposc/styles/style.scss
 
-59: @import "locations";
-60: @import "speakers-sessions";
-61: @import "sponsors";
-62: @import "ticket";
-63: @import "ticketbox";
+1: @include font-family: 'Montserrat', sans-serif,'Lora', serif;
 
 Backtrace:
-styles/style.scss:64
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:679:in `block'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:421:in `media_directive'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Users/smholbein176/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+cposc/styles/_fonts.scss:1
+cposc/styles/style.scss:54
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-3.5.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/dhernandez/.rvm/gems/ruby-2.4.1/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...rt \"ticketbox\";\": expected \"}\", was \"\"\A         on line 64 of styles/style.scss\A \A 59: @import \"locations\";\A 60: @import \"speakers-sessions\";\A 61: @import \"sponsors\";\A 62: @import \"ticket\";\A 63: @import \"ticketbox\";"; }
+  content: "Error: Invalid CSS after \"...ude font-family\": expected selector or at-rule, was \": 'Montserrat',...\"\A         on line 1 of cposc/styles/_fonts.scss\A         from line 54 of cposc/styles/style.scss\A \A 1: @include font-family: 'Montserrat', sans-serif,'Lora', serif;"; }
