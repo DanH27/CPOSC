@@ -25,7 +25,7 @@
   font-size: 50px;
 }
 .days-until-cposc {
-  font-family: Montserrat;
+  font-family: $font-stack2;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 0.9px;
@@ -35,15 +35,65 @@
   margin-bottom: 10px;
 }
 .date-of-event {
-    font-family: Montserrat;
+    font-family: $font-stack2;
   	font-size: 21px;
   	letter-spacing: 1px;
   	text-align: center;
   	color: #f5f5f5;
 
   }
-
-
+/*CPOSC background information container */
+.cposc-background-container {
+  margin: 0 auto;
+  width: 90%;
+  height: 150px;
+}
+.cposc-intro {
+  font-family: $font-stack;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.52;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #101010;
+}
+.presentations-and-sessions-container {
+  font-family: $font-stack;
+	font-size: 17px;
+	line-height: 1.41;
+	letter-spacing: 0.9px;
+	text-align: left;
+	color: #101010;
+  width: 90%;
+  height: 180px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.why-cposc-articles-container {
+  background-color: #ebebeb;
+  width: 100%;
+  h2 {
+    font-size: 18px;
+  	font-weight: bold;
+  	line-height: 1.33;
+  	letter-spacing: 0.9px;
+  }
+  p {
+    font-family: $font-stack;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #101010;
+  }
+  .why-cposc-container, .why-lancaster-container, .what-to-expect-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
 
 
 
