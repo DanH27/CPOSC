@@ -110,6 +110,97 @@ table {
   .CPOSC-navbar {
     padding-left: 20px; } }
 @media only screen and (max-width: 767px) {
+  /*Countdown clock */
+  .countdown-clock {
+    width: 90%;
+    height: 180px;
+    background-color: #ffae00;
+    margin: 0 auto;
+    position: relative;
+    top: -40px; }
+
+  .countdown-clock-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .countdown-number-box {
+    width: 25%;
+    height: 80px;
+    background-color: white;
+    margin-top: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; }
+
+  .days-until-cposc {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .date-of-event {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f5f5f5; }
+
+  /*CPOSC background information container */
+  .cposc-background-container {
+    margin: 0 auto;
+    width: 90%;
+    height: 150px; }
+
+  .cposc-intro {
+    font-family: "Lora", serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #101010; }
+
+  .presentations-and-sessions-container {
+    font-family: "Lora", serif;
+    font-size: 17px;
+    line-height: 1.41;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    width: 90%;
+    height: 180px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 30px; }
+
+  .why-cposc-articles-container {
+    background-color: #ebebeb;
+    width: 100%; }
+    .why-cposc-articles-container h2 {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.33;
+      letter-spacing: 0.9px; }
+    .why-cposc-articles-container p {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010; }
+    .why-cposc-articles-container .why-cposc-container, .why-cposc-articles-container .why-lancaster-container, .why-cposc-articles-container .what-to-expect-container {
+      padding-top: 40px;
+      padding-bottom: 20px;
+      margin: 0 auto;
+      width: 90%; } }
+@media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
     padding-left: 21px;
