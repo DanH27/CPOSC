@@ -110,6 +110,48 @@ table {
   .CPOSC-navbar {
     padding-left: 20px; } }
 @media only screen and (max-width: 767px) {
+  /*Countdown clock */
+  .countdown-clock {
+    width: 90%;
+    height: 180px;
+    background-color: #ffae00;
+    margin: 0 auto;
+    position: relative;
+    top: -40px; }
+
+  .countdown-clock-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .countdown-number-box {
+    width: 25%;
+    height: 80px;
+    background-color: white;
+    margin-top: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; }
+
+  .days-until-cposc {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .date-of-event {
+    font-family: Montserrat;
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #f5f5f5; } }
+@media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
     padding-left: 21px;
