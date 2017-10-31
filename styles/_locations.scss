@@ -6,7 +6,7 @@
   padding-top: 75px;
   padding-bottom: 32px;
   background-color: #ffae00;
-    h2 {
+    .conference {
       font-family: $font-stack2;
       font-size: 21px;
       font-weight: bold;
@@ -16,7 +16,7 @@
       color: #101010;
       padding-bottom: 36px;
   }
-    h3 {
+    .locations {
       font-family: $font-stack;
       font-size: 18px;
       font-weight: bold;
@@ -27,7 +27,7 @@
       font-size: 18px;
       line-height: 1.33;
     }
-    p {
+    .address {
       font-size: 18px;
       line-height: 1.33;
       font-family: $font-stack;
