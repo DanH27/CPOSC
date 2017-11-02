@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px){
+
+ .sponser-container {
+   width: 90%;
+   padding-left: 20px;
+   padding-bottom: 30px;
+ }
+
+.become-a-sponser {
+  h3 {
+    padding-bottom: 20px;
+  }
+  p {
+    font-family: $font-stack;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #101010;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+}
