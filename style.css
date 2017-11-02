@@ -46,6 +46,55 @@ table {
   border-spacing: 0; }
 
 @media only screen and (max-width: 767px) {
+  .contact-inquiries {
+    width: 90%;
+    padding-top: 60px;
+    padding-left: 20px; }
+    .contact-inquiries h3 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.0;
+      letter-spacing: 1.2px;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+    .contact-inquiries p {
+      font-family: "Lora", serif;
+      font-size: 18px;
+      line-height: 1.33;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 20px; }
+    .contact-inquiries input {
+      width: 280px;
+      height: 44px; }
+    .contact-inquiries fieldset {
+      padding-bottom: 60px; }
+    .contact-inquiries label {
+      font-family: "Lora", serif;
+      font-size: 18px;
+      line-height: 2.0;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010; }
+    .contact-inquiries .message-input {
+      height: 175px; }
+    .contact-inquiries .submit-button {
+      width: 168px;
+      height: 51px;
+      background-color: #ffae00;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 2.0;
+      letter-spacing: 0.9px;
+      text-align: center;
+      color: #f5f5f5; }
+    .contact-inquiries .button-container {
+      padding-top: 20px;
+      padding-left: 120px; } }
+@media only screen and (max-width: 767px) {
   footer {
     width: 100%;
     background-color: #313131;
@@ -263,7 +312,7 @@ table {
     letter-spacing: 1px;
     text-align: left;
     color: #ffae00; } }
-@media only screen and (max-width: 767px) {
+
   .conference-locations-container {
     width: 100%;
     padding-left: 21px;
@@ -293,7 +342,7 @@ table {
       line-height: 1.33;
       font-family: "Lora", serif;
       padding-bottom: 30px; } }
-@media only screen and (max-width: 767px) {
+
   .opening-activities-container {
     padding-left: 30px;
     padding-bottom: 30px; }
@@ -372,7 +421,7 @@ table {
       font-weight: normal;
       line-height: 1.69;
       letter-spacing: 0.8px; } }
-@media only screen and (max-width: 767px) {
+
   .presentations-sessions-container {
     height: 300px;
     width: 90%;
@@ -411,11 +460,23 @@ table {
 
   .ticket-description {
     font-family: Lora;
+=======
+  .sponser-container {
+    width: 90%;
+    padding-left: 20px;
+    padding-bottom: 30px; }
+
+  .become-a-sponser h3 {
+    padding-bottom: 20px; }
+  .become-a-sponser p {
+    font-family: "Lora", serif;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.8px;
     text-align: left;
     color: #101010;
+
     padding-bottom: 20px; }
 
   .ticket-dropdown {
@@ -465,7 +526,84 @@ table {
     justify-content: center;
     font-size: 48px;
     font-weight: bold; } }
-@media only screen and (max-width: 767px) {
+=======
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+  .about-cposc-container {
+    background-color: #ebebeb;
+    padding-left: 20px;
+    width: 100%;
+    padding-bottom: 90px; }
+    .about-cposc-container .about-cposc {
+      width: 90%;
+      padding-top: 60px; }
+      .about-cposc-container .about-cposc h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.0;
+        letter-spacing: 1.2px;
+        padding-bottom: 20px;
+        padding-top: 20px; }
+      .about-cposc-container .about-cposc p {
+        font-family: "Lora", serif;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-bottom: 20px; }
+      .about-cposc-container .about-cposc .list {
+        font-family: "Lora", serif;
+        font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-bottom: 20px; }
+
+  .sponsership-packages {
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .sponsership-packages h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 30px; }
+    .sponsership-packages p {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 40px; }
+
+  .sponsor-link-2 {
+    display: inline-block;
+    background-color: #ffae00;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 15px;
+    width: 219px; }
+
+  .sponsor-link-2 a {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.25;
+    letter-spacing: 0.8px;
+    text-decoration: none; } }
+
   .buy-tickets {
     width: 281px;
     height: 200px;
@@ -503,8 +641,8 @@ table {
     letter-spacing: 0.9px;
     text-align: center;
     color: #ffae00;
-    text-decoration: none; } }
-@media only screen and (max-width: 767px) {
+    text-decoration: none; } 
+
   .grey-container {
     width: 100%;
     height: 367px;
