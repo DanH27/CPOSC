@@ -387,7 +387,41 @@ table {
     letter-spacing: 0.8px;
     text-align: left;
     color: #101010;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+  .about-cposc-container {
+    background-color: #ebebeb;
+    padding-left: 20px;
+    width: 100%;
+    padding-bottom: 90px; }
+    .about-cposc-container .about-cposc {
+      width: 90%;
+      padding-top: 60px; }
+      .about-cposc-container .about-cposc h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.0;
+        letter-spacing: 1.2px;
+        padding-bottom: 20px;
+        padding-top: 20px; }
+      .about-cposc-container .about-cposc p {
+        font-family: "Lora", serif;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-bottom: 20px; }
+      .about-cposc-container .about-cposc .list {
+        font-family: "Lora", serif;
+        font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-bottom: 20px; } }
 @media only screen and (max-width: 767px) {
   .buy-tickets {
     width: 281px;
