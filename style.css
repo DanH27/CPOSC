@@ -312,7 +312,7 @@ table {
     letter-spacing: 1px;
     text-align: left;
     color: #ffae00; } }
-@media only screen and (max-width: 767px) {
+
   .conference-locations-container {
     width: 100%;
     padding-left: 21px;
@@ -342,7 +342,7 @@ table {
       line-height: 1.33;
       font-family: "Lora", serif;
       padding-bottom: 30px; } }
-@media only screen and (max-width: 767px) {
+
   .opening-activities-container {
     padding-left: 30px;
     padding-bottom: 30px; }
@@ -421,7 +421,46 @@ table {
       font-weight: normal;
       line-height: 1.69;
       letter-spacing: 0.8px; } }
-@media only screen and (max-width: 767px) {
+
+  .presentations-sessions-container {
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: font-stack;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010; }
+
+  .ticket-options-containers {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ffae00;
+    margin-bottom: 20px; }
+
+  .ticket-name-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1px;
+    padding-bottom: 20px; }
+
+  .ticket-pricing {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    color: #d08e01;
+    padding-bottom: 20px; }
+
+  .ticket-description {
+    font-family: Lora;
+=======
   .sponser-container {
     width: 90%;
     padding-left: 20px;
@@ -431,11 +470,63 @@ table {
     padding-bottom: 20px; }
   .become-a-sponser p {
     font-family: "Lora", serif;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.8px;
     text-align: left;
     color: #101010;
+
+    padding-bottom: 20px; }
+
+  .ticket-dropdown {
+    margin-bottom: 60px;
+    width: 100px;
+    height: 60px; }
+
+  .purchase-section {
+    height: 200px; }
+    .purchase-section .total-section {
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 20px; }
+      .purchase-section .total-section .total-container {
+        width: 58%;
+        height: 60px;
+        border: 2px solid black; }
+      .purchase-section .total-section h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 2.57;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #101010; }
+
+  .purchase-button {
+    background-color: #ffae00;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: font-stack2;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 2.25;
+    letter-spacing: 0.8px; }
+    .purchase-button a {
+      text-decoration: none;
+      color: #ffffff; }
+
+  #total-cost-tickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold; } }
+=======
     padding-bottom: 20px;
     padding-top: 20px; }
 
@@ -512,7 +603,7 @@ table {
     line-height: 2.25;
     letter-spacing: 0.8px;
     text-decoration: none; } }
-@media only screen and (max-width: 767px) {
+
   .buy-tickets {
     width: 281px;
     height: 200px;
@@ -550,8 +641,8 @@ table {
     letter-spacing: 0.9px;
     text-align: center;
     color: #ffae00;
-    text-decoration: none; } }
-@media only screen and (max-width: 767px) {
+    text-decoration: none; } 
+
   .grey-container {
     width: 100%;
     height: 367px;
