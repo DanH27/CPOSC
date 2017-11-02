@@ -199,7 +199,70 @@ table {
       padding-top: 40px;
       padding-bottom: 20px;
       margin: 0 auto;
-      width: 90%; } }
+      width: 90%; }
+
+  .conference-sponsers-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 90%; }
+    .conference-sponsers-container p {
+      font-family: Lora;
+      font-size: 17px;
+      line-height: 1.41;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 15px; }
+    .conference-sponsers-container .become-a-sponser-button a {
+      background-color: #ffae00;
+      width: 90%;
+      height: 50px;
+      margin: 0 auto;
+      font-weight: 900;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.73;
+      letter-spacing: 0.9px;
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      text-decoration: none; }
+    .conference-sponsers-container .conference-sponsers {
+      font-family: "Lora", serif;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.71;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 10px; }
+
+  .platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container, .bronze-sponsers-container, .host-sponsers-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
+      width: 35%;
+      height: 10%; }
+
+  #millersville {
+    width: 60%; }
+
+  .sponsers-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffae00; } }
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
