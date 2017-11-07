@@ -525,9 +525,91 @@ table {
     padding-left: 30px;
     padding-bottom: 30px; }
     .opening-activities-container span {
+      width: 270px;
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
-      font-weight: 500;
+      font-weight: bold;
+      line-height: 1.62;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #101010; }
+
+  .sessions-container {
+    padding-left: 30px;
+    background-color: #ebebeb;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+  .registration-breakfast h3 {
+    width: 270px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    padding-top: 32px; }
+  .registration-breakfast p {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; }
+  .registration-breakfast h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffae00; }
+  .registration-breakfast h4 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; }
+
+  .session-second {
+    background-color: white;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    .session-second h3 {
+      width: 270px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010;
+      padding-top: 32px; }
+    .session-second p {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.69;
+      letter-spacing: 0.8px; }
+    .session-second h5 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      color: #ffae00; }
+    .session-second h4 {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.69;
+      letter-spacing: 0.8px; } }
+@media only screen and (min-width: 768px) {
+  .opening-activities-container {
+    padding-left: 30px;
+    padding-bottom: 30px; }
+    .opening-activities-container span {
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: bold;
       line-height: 1.62;
       letter-spacing: 0.6px;
       text-align: left;
@@ -598,7 +680,10 @@ table {
       font-size: 16px;
       font-weight: normal;
       line-height: 1.69;
-      letter-spacing: 0.8px; } }
+      letter-spacing: 0.8px; }
+
+  .speakers-sessions-container {
+    margin-left: 25%; } }
 @media only screen and (max-width: 767px) {
   .sponser-container {
     width: 90%;

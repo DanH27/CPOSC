@@ -4,9 +4,10 @@
     padding-left: 30px;
     padding-bottom: 30px;
     span {
+      width: 270px;
       font-family: $font-stack2;
       font-size: 13px;
-      font-weight: 500;
+      font-weight: bold;
       line-height: 1.62;
       letter-spacing: 0.6px;
       text-align: left;
@@ -20,6 +21,105 @@
     padding-top: 20px;
   }
   .registration-breakfast {
+      h3 {
+        width: 270px;
+        font-family: $font-stack2;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-top: 32px;
+      }
+      p {
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.69;
+        letter-spacing: 0.8px;
+      }
+      h5 {
+        font-family: $font-stack2;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+        color: #ffae00;
+      }
+      h4 {
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.69;
+        letter-spacing: 0.8px;
+      }
+    }
+
+    .session-second {
+      background-color: white;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      h3 {
+        width: 270px;
+        font-family: $font-stack2;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 0.9px;
+        text-align: left;
+        color: #101010;
+        padding-top: 32px;
+      }
+      p {
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.69;
+        letter-spacing: 0.8px;
+      }
+      h5 {
+        font-family: $font-stack2;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+        color: #ffae00;
+      }
+      h4 {
+        font-family: $font-stack;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.69;
+        letter-spacing: 0.8px;
+      }
+    }
+
+}
+
+
+@media only screen and (min-width: 768px){
+
+  .opening-activities-container {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    span {
+      font-family: $font-stack2;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1.62;
+      letter-spacing: 0.6px;
+      text-align: left;
+      color: #101010;
+    }
+}
+  .sessions-container {
+    padding-left: 30px;
+    background-color: #ebebeb;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .registration-breakfast {
+
       h3 {
         font-family: $font-stack2;
         font-size: 18px;
@@ -91,7 +191,9 @@
       }
     }
 
-
+.speakers-sessions-container {
+  margin-left: 25%;
+}
 
 
 
