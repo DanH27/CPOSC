@@ -7,6 +7,7 @@
   padding-bottom: 32px;
   background-color: #ffae00;
     .conference {
+      width: 160px;
       font-family: $font-stack2;
       font-size: 21px;
       font-weight: bold;
@@ -34,25 +35,44 @@
       padding-bottom: 30px;
     }
 }
+}
 
+@media only screen and (min-width: 768px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .conference-locations-container {
+    width: 30%;
+    height: 563px;
+    padding-left: 91px;
+    background-color: #ffae00;
+      .conference {
+        font-family: $font-stack2;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 1.2px;
+        text-align: left;
+        color: #101010;
+        padding-bottom: 36px;
+        padding-top: 94px;
+    }
+      .locations {
+        font-family: $font-stack;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.33;
+      }
+      h5 {
+        font-family: $font-stack;
+        font-size: 21px;
+        line-height: 1.33;
+      }
+      .address {
+        font-size: 18px;
+        line-height: 1.33;
+        font-family: $font-stack;
+        padding-bottom: 30px;
+      }
+  }
 
 
 }
