@@ -25,3 +25,5 @@ var daysUntilEventList = [daysUntilEventString[0],daysUntilEventString[1],daysUn
 document.getElementById("countdown-box-one").innerHTML = daysUntilEventList[0];
 document.getElementById("countdown-box-two").innerHTML = daysUntilEventList[1];
 document.getElementById("countdown-box-three").innerHTML = daysUntilEventList[2];
+
+//Accordian
