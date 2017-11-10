@@ -408,7 +408,10 @@ table {
     line-height: 1.71;
     letter-spacing: 1px;
     text-align: left;
-    color: #ffae00; } }
+    color: #ffae00; }
+
+  .be-a-sponser-button {
+    display: none; } }
 @media only screen and (min-width: 768px) {
   /*Countdown clock */
   .countdown-clock {
@@ -458,7 +461,156 @@ table {
     font-size: 21px;
     letter-spacing: 1px;
     text-align: center;
-    color: #f5f5f5; } }
+    color: #f5f5f5; }
+
+  /*Homepage intro section */
+  .buy-tickets-background-info-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; }
+
+  .background-info {
+    width: 60%; }
+
+  .cposc-background-container {
+    margin: 0 auto; }
+
+  .cposc-intro {
+    font-family: "Lora", serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #101010;
+    padding-bottom: 30px; }
+
+  .presentations-and-sessions-container {
+    font-family: "Lora", serif;
+    font-size: 17px;
+    line-height: 1.41;
+    letter-spacing: 0.9px;
+    color: #101010;
+    margin: 0 auto; }
+
+  .why-cposc-articles-container {
+    background-color: #ebebeb;
+    width: 100%;
+    margin-top: 20px; }
+    .why-cposc-articles-container h2 {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.33;
+      letter-spacing: 0.9px; }
+    .why-cposc-articles-container p {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010; }
+    .why-cposc-articles-container .why-cposc-container, .why-cposc-articles-container .why-lancaster-container, .why-cposc-articles-container .what-to-expect-container {
+      padding-top: 40px;
+      padding-bottom: 20px;
+      padding-left: 190px;
+      margin: 0 auto;
+      width: 40%; }
+
+  /*Sponsers section */
+  .conference-sponsers-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 40%; }
+    .conference-sponsers-container p {
+      font-family: Lora;
+      font-size: 17px;
+      line-height: 1.41;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 15px; }
+    .conference-sponsers-container .become-a-sponser-button a {
+      background-color: #ffae00;
+      width: 300px;
+      height: 50px;
+      margin: 0 auto;
+      font-weight: 900;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.73;
+      letter-spacing: 0.9px;
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+      text-decoration: none; }
+    .conference-sponsers-container .conference-sponsers {
+      font-family: "Lora", serif;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.71;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #101010;
+      padding-bottom: 10px; }
+
+  .be-a-sponser-button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none; }
+
+  .be-a-sponser-button a {
+    background-color: #ffae00;
+    width: 300px;
+    height: 50px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.73;
+    letter-spacing: 0.9px;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none; }
+
+  .become-a-sponser-button {
+    display: none; } }
+.conference-sponsers-and-button-container {
+  display: flex;
+  justify-content: space-around; }
+
+.platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container, .bronze-sponsers-container, .host-sponsers-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
+    width: 10%;
+    height: 10%;
+    padding-right: 60px; }
+
+#millersville {
+  width: 20%;
+  height: 20%; }
+
+.sponsers-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffae00; }
+
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
@@ -698,6 +850,42 @@ table {
     text-align: center;
     color: #ffae00;
     text-decoration: none; } }
+@media only screen and (min-width: 768px) {
+  .buy-tickets {
+    width: 281px;
+    height: 200px;
+    background-color: #ffae00;
+    padding-right: 10px; }
+
+  .available {
+    width: 239px;
+    height: 46px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #f5f5f5;
+    padding-left: 21px;
+    padding-top: 40px; }
+
+  .link-2 {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin: 15px;
+    width: 219px; }
+
+  .link-2 a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffae00;
+    text-decoration: none; } }
 @media only screen and (max-width: 767px) {
   .grey-container {
     width: 100%;
@@ -795,6 +983,114 @@ table {
     align-items: center;
     justify-content: center;
     font-size: 48px;
-    font-weight: bold; } }
+    font-weight: bold; }
+
+  .ticket-dropdown-2 {
+    display: none; } }
+@media only screen and (min-width: 768px) {
+  .presentations-sessions-container {
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    padding-left: 80px; }
+
+  .ticket-options-containers {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ffae00;
+    margin-bottom: 20px; }
+
+  .ticket-name-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    display: inline-block; }
+
+  .ticket-pricing {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    color: #d08e01;
+    padding-bottom: 20px; }
+
+  .ticket-description {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #101010;
+    padding-bottom: 20px; }
+
+  .ticket-dropdown {
+    display: none; }
+
+  .purchase-section {
+    height: 200px; }
+    .purchase-section .total-section {
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 20px;
+      margin-left: 60px; }
+      .purchase-section .total-section .total-container {
+        width: 15%;
+        height: 60px;
+        border: 2px solid black;
+        margin-left: 320px;
+        margin-bottom: 30px; }
+      .purchase-section .total-section h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 2.57;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #101010; }
+
+  .purchase-button {
+    background-color: #ffae00;
+    width: 10%;
+    height: 60px;
+    margin-left: 60px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: font-stack2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    letter-spacing: 0.8px; }
+    .purchase-button a {
+      text-decoration: none;
+      color: #ffffff;
+      width: 100%; }
+
+  #total-cost-tickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold; }
+
+  .ticket-dropdown-2 {
+    float: right;
+    display: inline-block;
+    margin-bottom: 60px;
+    width: 100px;
+    height: 60px; } }
 
 /*# sourceMappingURL=style.css.map */

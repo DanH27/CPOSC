@@ -96,6 +96,132 @@
     font-size: 48px;
     font-weight: bold;
   }
+  .ticket-dropdown-2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .presentations-sessions-container {
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: $font-stack;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    padding-left: 80px;
+  }
+  .ticket-options-containers {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ffae00;
+    margin-bottom: 20px;
+  }
+  .ticket-name-heading {
+    font-family: $font-stack2;
+  	font-size: 21px;
+  	font-weight: 500;
+  	line-height: 1.14;
+  	letter-spacing: 1px;
+    padding-bottom: 20px;
+    display: inline-block;
+  }
+  .ticket-pricing {
+    font-family: $font-stack2;
+  	font-size: 21px;
+  	font-weight: 500;
+  	line-height: 1.71;
+  	letter-spacing: 1px;
+  	color: #d08e01;
+    padding-bottom: 20px;
+  }
+  .ticket-description {
+    font-family: $font-stack;
+  	font-size: 16px;
+  	line-height: 1.5;
+  	letter-spacing: 0.8px;
+  	text-align: left;
+  	color: #101010;
+    padding-bottom: 20px;
+  }
+  .ticket-dropdown {
+    display: none;
+
+  }
+  .purchase-section {
+    height: 200px;
+
+    .total-section {
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 20px;
+      margin-left: 60px;
+      .total-container {
+        width: 15%;
+        height: 60px;
+        border: 2px solid black;
+        margin-left: 320px;
+        margin-bottom: 30px;
+      }
+      h2 {
+        font-family: $font-stack2;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 2.57;
+        letter-spacing: 1px;
+        text-align: left;
+        color: #101010;
+      }
+    }
+  }
+  .purchase-button {
+    background-color: #ffae00;
+    width: 10%;
+    height: 60px;
+    margin-left: 60px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: font-stack2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    letter-spacing: 0.8px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      width: 100%;
+    }
+  }
+  #total-cost-tickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .ticket-dropdown-2 {
+    float: right;
+    display: inline-block;
+    margin-bottom: 60px;
+    width: 100px;
+    height: 60px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
