@@ -874,7 +874,16 @@ table {
     font-weight: bold;
     line-height: 2.25;
     letter-spacing: 0.8px;
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .desktop-table {
+    display: none; }
+
+  .desktop-sponsor-details {
+    display: none; }
+
+  .desktop-p {
+    display: none; } }
 @media only screen and (min-width: 768px) {
   .sponser-container {
     width: 90%;
@@ -934,7 +943,7 @@ table {
     .sponsership-packages h4 {
       font-family: "Montserrat", sans-serif;
       font-size: 21px;
-      font-weight: 500;
+      font-weight: bold;
       line-height: 1.14;
       letter-spacing: 1px;
       text-align: left;
@@ -955,8 +964,10 @@ table {
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    margin: 15px;
-    width: 219px; }
+    margin-top: -90px;
+    margin-right: 8%;
+    width: 219px;
+    float: right; }
 
   .sponsor-link-2 a {
     color: #ffffff;
@@ -965,7 +976,71 @@ table {
     font-weight: bold;
     line-height: 2.25;
     letter-spacing: 0.8px;
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .sponsor-homepage {
+    margin-left: 30%; }
+
+  .desktop-table {
+    margin-left: 5%; }
+    .desktop-table td {
+      padding-right: 60px;
+      padding-left: 20px;
+      font-size: 16px;
+      font-family: "Lora", serif;
+      line-height: 2.0;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010; }
+    .desktop-table th {
+      width: 300px;
+      text-align: left;
+      font-family: "Lora", serif;
+      font-size: 16px;
+      line-height: 2.0;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010;
+      padding-right: 90px; }
+
+  .mobile-p {
+    display: none; }
+
+  .desktop-p {
+    width: 450px;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #101010;
+    margin-left: 5%;
+    padding-top: 41px; }
+
+  .desktop-sponsor-details {
+    margin-left: 30%;
+    padding-top: 90px; }
+    .desktop-sponsor-details h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.0;
+      letter-spacing: 1.2px; }
+    .desktop-sponsor-details h5 {
+      font-family: "Lora", serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010; }
+    .desktop-sponsor-details p {
+      font-family: "Lora", serif;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.8px;
+      text-align: left;
+      color: #101010; } }
 @media only screen and (max-width: 767px) {
   .buy-tickets {
     width: 281px;
@@ -1007,7 +1082,7 @@ table {
     text-decoration: none; } }
 @media only screen and (max-width: 767px) {
   .grey-container {
-    width: 100%;
+    width: 105%;
     height: 367px;
     background-color: #ebebeb; } }
 @media only screen and (min-width: 768px) {
