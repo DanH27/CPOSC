@@ -349,7 +349,7 @@
 .become-a-sponser-button {
   display: none;
 }
-}
+
 .conference-sponsers-and-button-container {
   display: flex;
   justify-content: space-around;
@@ -383,5 +383,23 @@
 	color: #ffae00;
 }
 .bronze-sponsers-container {
+
+}
+
+.images-footer {
+  float: right;
+  display: inline;
+  margin-right: 12%;
+  margin-top: -80px;
+  img {
+    height: 25px;
+    width: 14px;
+  }
+}
+
+
+
+
+
 
 }
