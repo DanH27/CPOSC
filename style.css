@@ -107,7 +107,10 @@ table {
 
   img {
     height: 199px;
-    width: 90%; } }
+    width: 90%; }
+
+  .about-desktop-only {
+    display: none; } }
 @media only screen and (min-width: 768px) {
   .contact-inquiries {
     width: 90%;
@@ -167,7 +170,7 @@ table {
     margin-left: -80px; }
 
   .about-venue-location-container {
-    margin-left: 30%; }
+    margin-left: 400px; }
 
   .desktop-version-input {
     margin-left: 15%; }
@@ -179,21 +182,27 @@ table {
     line-height: 1.52;
     letter-spacing: 1px;
     text-align: left;
-    color: #101010; }
+    color: #101010;
+    margin-top: -350px; }
 
   .about-desktop-only {
-    width: 392px; }
+    width: 392px;
+    margin-top: 10%;
+    margin-left: 2%; }
     .about-desktop-only h6 {
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
       color: #ffae00;
       font-weight: bold;
-      letter-spacing: 0.8px; }
-    .about-desktop-only p {
+      letter-spacing: 0.8px;
+      padding-bottom: 5px; }
+    .about-desktop-only a {
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
-      letter-spacing: 0.8px; } }
+      letter-spacing: 0.8px;
+      text-decoration: none;
+      color: #101010; } }
 @media only screen and (max-width: 767px) {
   footer {
     width: 100%;
@@ -221,7 +230,10 @@ table {
       padding-bottom: 84px;
       font-weight: 500;
       text-align: left;
-      color: #ebebeb; } }
+      color: #ebebeb; }
+
+  .images-footer {
+    display: none; } }
 @media only screen and (min-width: 768px) {
   footer {
     width: 94%;
@@ -717,6 +729,47 @@ table {
   width: 99%;
   height: 99%; }
 
+
+    display: none; }
+
+  .conference-sponsers-and-button-container {
+    display: flex;
+    justify-content: space-around; }
+
+  .platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container, .bronze-sponsers-container, .host-sponsers-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
+      width: 10%;
+      height: 10%;
+      padding-right: 60px; }
+
+  #millersville {
+    width: 20%;
+    height: 20%; }
+
+  .sponsers-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffae00; }
+
+  .images-footer {
+    float: right;
+    display: inline;
+    margin-right: 12%;
+    margin-top: -80px; }
+    .images-footer img {
+      height: 25px;
+      width: 14px; } }
+
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
@@ -1041,12 +1094,18 @@ table {
     display: none; }
 
   .desktop-p {
-    display: none; } }
+    display: none; }
+
+  .desktop-sponsor-button {
+    display: none; }
+
+  span {
+    font-weight: bold; } }
 @media only screen and (min-width: 768px) {
   .sponser-container {
     width: 90%;
     padding-left: 20px;
-    padding-bottom: 30px; }
+    padding-bottom: 120px; }
 
   .become-a-sponser h3 {
     padding-bottom: 20px; }
@@ -1137,7 +1196,7 @@ table {
     text-decoration: none; }
 
   .sponsor-homepage {
-    margin-left: 30%; }
+    margin-left: 400px; }
 
   .desktop-table {
     margin-left: 5%; }
@@ -1198,7 +1257,49 @@ table {
       line-height: 1.5;
       letter-spacing: 0.8px;
       text-align: left;
-      color: #101010; } }
+      color: #101010; }
+
+  .desktop-sponsor-button {
+    display: inline-block;
+    background-color: #ffae00;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 219px; }
+
+  .desktop-sponsor-button a {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.25;
+    letter-spacing: 0.8px;
+    text-decoration: none; }
+
+  .bold-text {
+    font-weight: bold; }
+
+  .sponsor-desktop-only {
+    width: 392px;
+    margin-top: 200px;
+    margin-left: 15px; }
+    .sponsor-desktop-only h6 {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      color: #ffae00;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      padding-bottom: 5px; }
+    .sponsor-desktop-only a {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      text-decoration: none;
+      color: #101010; }
+
+  #become-a-sponsor-desktop-only {
+    margin-top: -350px; } }
 @media only screen and (max-width: 767px) {
   .buy-tickets {
     width: 281px;

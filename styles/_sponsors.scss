@@ -122,6 +122,14 @@
   display: none;
 }
 
+.desktop-sponsor-button {
+  display: none;
+}
+
+span {
+  font-weight: bold;
+}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,7 +137,7 @@
   .sponser-container {
     width: 90%;
     padding-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
 
   }
 
@@ -244,7 +252,7 @@
    }
 
 .sponsor-homepage{
-  margin-left: 30%;
+  margin-left: 400px;
 }
 
 .desktop-table {
@@ -317,8 +325,54 @@
   }
 }
 
+.desktop-sponsor-button {
+  display: inline-block;
+  background-color: #ffae00;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 219px;
+}
 
+.desktop-sponsor-button a {
+  color: #ffffff;
+  font-family: $font-stack2;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.25;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
 
+.bold-text {
+  font-weight: bold;
+}
 
+.sponsor-desktop-only {
+  width: 392px;
+  margin-top: 200px;
+  margin-left: 15px;;
+    h6 {
+      font-size: 16px;
+      font-family: $font-stack2;
+      color: #ffae00;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      padding-bottom: 5px;
+  }
+   a {
+    font-size: 16px;
+    font-family: $font-stack2;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    color: #101010;
+  }
+
+}
+
+#become-a-sponsor-desktop-only {
+  margin-top: -350px;
+}
 
 }

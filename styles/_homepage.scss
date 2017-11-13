@@ -349,7 +349,7 @@
 .become-a-sponser-button {
   display: none;
 }
-}
+
 .conference-sponsers-and-button-container {
   display: flex;
   justify-content: space-around;
@@ -381,6 +381,7 @@
 .bronze-sponsers-container {
 
 }
+
 #millersville {
   width: 20%;
   height: 20%;
@@ -389,4 +390,18 @@
   margin: 0 auto;
   width: 99%;
   height: 99%;
+=======
+
+.images-footer {
+  float: right;
+  display: inline;
+  margin-right: 12%;
+  margin-top: -80px;
+  img {
+    height: 25px;
+    width: 14px;
+  }
+}
+
+
 }
