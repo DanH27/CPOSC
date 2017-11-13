@@ -351,7 +351,7 @@ table {
   .hero-words {
     height: 111px;
     font-family: Lora;
-    font-size: 72px;
+    font-size: 42px;
     font-weight: bold;
     letter-spacing: 1.6px;
     color: #ffae00;
@@ -503,7 +503,7 @@ table {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap; }
     .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
@@ -693,6 +693,43 @@ table {
     text-decoration: none; }
 
   .become-a-sponser-button {
+    display: none; } }
+.conference-sponsers-and-button-container {
+  display: flex;
+  justify-content: space-around; }
+
+.platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container, .bronze-sponsers-container, .host-sponsers-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
+    width: 150px;
+    height: 100px;
+    padding-right: 60px;
+    padding-left: 60px; }
+
+.sponsers-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffae00; }
+
+#millersville {
+  width: 20%;
+  height: 20%; }
+
+.google-map-locations {
+  margin: 0 auto;
+  width: 99%;
+  height: 99%; }
+
+
     display: none; }
 
   .conference-sponsers-and-button-container {
@@ -732,6 +769,7 @@ table {
     .images-footer img {
       height: 25px;
       width: 14px; } }
+
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
@@ -1463,7 +1501,11 @@ table {
     text-align: left;
     color: #101010;
     padding-left: 80px;
+
     padding-top: 70px; }
+=======
+    padding-top: 50px; }
+
 
   .ticket-options-containers {
     width: 90%;
