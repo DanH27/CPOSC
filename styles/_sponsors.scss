@@ -252,7 +252,7 @@ span {
    }
 
 .sponsor-homepage{
-  margin-left: 30%;
+  margin-left: 400px;
 }
 
 .desktop-table {
@@ -346,6 +346,31 @@ span {
 
 .bold-text {
   font-weight: bold;
+}
+
+.sponsor-desktop-only {
+  width: 392px;
+  margin-top: 200px;
+  margin-left: 15px;;
+    h6 {
+      font-size: 16px;
+      font-family: $font-stack2;
+      color: #ffae00;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      padding-bottom: 5px;
+  }
+  p {
+    font-size: 16px;
+    font-family: $font-stack2;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+
+  }
+}
+
+#become-a-sponsor-desktop-only {
+  margin-top: -350px;
 }
 
 }
