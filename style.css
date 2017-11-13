@@ -196,11 +196,13 @@ table {
       font-weight: bold;
       letter-spacing: 0.8px;
       padding-bottom: 5px; }
-    .about-desktop-only p {
+    .about-desktop-only a {
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
-      letter-spacing: 0.8px; } }
+      letter-spacing: 0.8px;
+      text-decoration: none;
+      color: #101010; } }
 @media only screen and (max-width: 767px) {
   footer {
     width: 100%;
@@ -1250,11 +1252,13 @@ table {
       font-weight: bold;
       letter-spacing: 0.8px;
       padding-bottom: 5px; }
-    .sponsor-desktop-only p {
+    .sponsor-desktop-only a {
       font-size: 16px;
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
-      letter-spacing: 0.8px; }
+      letter-spacing: 0.8px;
+      text-decoration: none;
+      color: #101010; }
 
   #become-a-sponsor-desktop-only {
     margin-top: -350px; } }
