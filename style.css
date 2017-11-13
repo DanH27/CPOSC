@@ -339,7 +339,7 @@ table {
   .hero-words {
     height: 111px;
     font-family: Lora;
-    font-size: 72px;
+    font-size: 42px;
     font-weight: bold;
     letter-spacing: 1.6px;
     color: #ffae00;
@@ -491,7 +491,7 @@ table {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap; }
     .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
@@ -694,13 +694,10 @@ table {
   flex-direction: row;
   flex-wrap: wrap; }
   .platinum-sponsers-container img, .gold-sponsers-container img, .silver-sponsers-container img, .bronze-sponsers-container img, .host-sponsers-container img {
-    width: 10%;
-    height: 10%;
-    padding-right: 60px; }
-
-#millersville {
-  width: 20%;
-  height: 20%; }
+    width: 150px;
+    height: 100px;
+    padding-right: 60px;
+    padding-left: 60px; }
 
 .sponsers-title {
   font-family: "Montserrat", sans-serif;
@@ -710,6 +707,15 @@ table {
   letter-spacing: 1px;
   text-align: left;
   color: #ffae00; }
+
+#millersville {
+  width: 20%;
+  height: 20%; }
+
+.google-map-locations {
+  margin: 0 auto;
+  width: 99%;
+  height: 99%; }
 
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
@@ -1393,7 +1399,8 @@ table {
     letter-spacing: 0.9px;
     text-align: left;
     color: #101010;
-    padding-left: 80px; }
+    padding-left: 80px;
+    padding-top: 50px; }
 
   .ticket-options-containers {
     width: 90%;

@@ -141,7 +141,7 @@
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   img {
@@ -362,16 +362,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   img {
-    width: 10%;
-    height: 10%;
+    width: 150px;
+    height: 100px;
     padding-right: 60px;
+    padding-left: 60px;
 
   }
-}
-#millersville {
-  width: 20%;
-  height: 20%;
-
 }
 .sponsers-title {
   font-family: $font-stack2;
@@ -384,4 +380,13 @@
 }
 .bronze-sponsers-container {
 
+}
+#millersville {
+  width: 20%;
+  height: 20%;
+}
+.google-map-locations {
+  margin: 0 auto;
+  width: 99%;
+  height: 99%;
 }
