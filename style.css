@@ -1462,7 +1462,8 @@ table {
     letter-spacing: 0.9px;
     text-align: left;
     color: #101010;
-    padding-left: 80px; }
+    padding-left: 80px;
+    padding-top: 70px; }
 
   .ticket-options-containers {
     width: 90%;
