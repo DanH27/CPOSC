@@ -31,7 +31,7 @@
 	letter-spacing: 0.9px;
 	text-align: center;
 	color: #f5f5f5;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 10px;
 }
 .date-of-event {
@@ -147,7 +147,8 @@
   img {
     width: 35%;
     height: 10%;
-
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 }
 #millersville {
@@ -162,6 +163,8 @@
 	letter-spacing: 1px;
 	text-align: left;
 	color: #ffae00;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 .be-a-sponser-button {
   display: none;
@@ -172,7 +175,7 @@
 @media only screen and (min-width: 768px) {
   /*Countdown clock */
 .countdown-clock {
-  width: 50%;
+  width: 744px;
   height: 150px;
   background-color: #ffae00;
   margin: 0 auto;
@@ -208,9 +211,9 @@
 	letter-spacing: 0.9px;
 	text-align: center;
 	color: #f5f5f5;
-  margin-top: 10px;
+
   margin-bottom: 10px;
-  padding-top: 30px;
+  padding-top: 25px;
   width: 100%;
 }
 .date-of-event {
@@ -355,18 +358,19 @@
   display: flex;
   justify-content: space-around;
 }
-.platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container,.bronze-sponsers-container, .host-sponsers-container {
-  width: 90%;
+.platinum-sponsers-container, .gold-sponsers-container, .silver-sponsers-container,.bronze-sponsers-container {
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 97px;
   img {
     width: 150px;
     height: 100px;
     padding-right: 60px;
     padding-left: 60px;
+    padding-bottom: 92px;
 
   }
 }
@@ -378,6 +382,8 @@
 	letter-spacing: 1px;
 	text-align: left;
 	color: #ffae00;
+  padding-left: 97px;
+  padding-bottom: 20px;
 }
 .bronze-sponsers-container {
 
@@ -386,6 +392,10 @@
 #millersville {
   width: 20%;
   height: 20%;
+  float: right;
+  padding-right: 370px;
+  margin-top: -150px;
+  padding-bottom: 128px;
 }
 .google-map-locations {
   margin: 0 auto;
@@ -404,6 +414,12 @@
   }
 }
 
-
+.host-sponsers-container {
+  h2 {
+  float: right;
+  margin-top: -220px;
+  padding-right: 405px;
+}
+}
 
 }
