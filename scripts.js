@@ -12,6 +12,25 @@ function getNumberOfTickets() {
   document.getElementById("total-cost-tickets").innerHTML = (numberOfAnswerETickets * 42) + (numberOfCollegeTickets * 10);
 }
 
+
+
+//Accordian
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  }
+}
+
+
 //Countdown clock
 var dayOfEvent = new Date("Nov 1, 2018 15:37:25").getTime();
 var now = new Date().getTime();
@@ -25,5 +44,3 @@ var daysUntilEventList = [daysUntilEventString[0],daysUntilEventString[1],daysUn
 document.getElementById("countdown-box-one").innerHTML = daysUntilEventList[0];
 document.getElementById("countdown-box-two").innerHTML = daysUntilEventList[1];
 document.getElementById("countdown-box-three").innerHTML = daysUntilEventList[2];
-
-//Accordian

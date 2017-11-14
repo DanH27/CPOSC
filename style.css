@@ -836,7 +836,7 @@ table {
       text-align: left;
       color: #101010;
       padding-bottom: 36px;
-      padding-top: 94px; }
+      padding-top: 24px; }
     .conference-locations-container .locations {
       font-family: "Lora", serif;
       font-size: 21px;
@@ -932,7 +932,58 @@ table {
       font-size: 16px;
       font-weight: normal;
       line-height: 1.69;
-      letter-spacing: 0.8px; } }
+      letter-spacing: 0.8px; }
+
+  button.accordion {
+    background-color: white;
+    color: #ffae00;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s; }
+
+  button.accordion.active, button.accordion:hover {
+    background-color: #ccc; }
+
+  div.panel {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.2s ease-out; }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    padding-top: 32px; }
+
+  p {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; }
+
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffae00; }
+
+  h4 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; } }
 @media only screen and (min-width: 768px) {
   .opening-activities-container {
     padding-left: 30px;
@@ -1014,7 +1065,58 @@ table {
       letter-spacing: 0.8px; }
 
   .speakers-sessions-container {
-    margin-left: 30%; } }
+    margin-left: 30%; }
+
+  button.accordion {
+    background-color: white;
+    color: #ffae00;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s; }
+
+  button.accordion.active, button.accordion:hover {
+    background-color: #ccc; }
+
+  div.panel {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.2s ease-out; }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #101010;
+    padding-top: 32px; }
+
+  p {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; }
+
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    color: #ffae00; }
+
+  h4 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: 0.8px; } }
 @media only screen and (max-width: 767px) {
   .sponser-container {
     width: 90%;
@@ -1370,7 +1472,7 @@ table {
     width: 239px;
     height: 46px;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 1.2px;
     text-align: center;
@@ -1382,7 +1484,6 @@ table {
     display: inline-block;
     background-color: white;
     text-align: center;
-    font-size: 18px;
     padding: 20px;
     margin: 15px;
     width: 219px; }

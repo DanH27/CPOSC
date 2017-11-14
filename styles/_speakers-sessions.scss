@@ -94,6 +94,61 @@
       }
     }
 
+    button.accordion {
+        background-color: white;
+        color: #ffae00;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: right;
+        outline: none;
+        font-size: 30px;
+        transition: 0.4s;
+
+    }
+
+    button.accordion.active, button.accordion:hover {
+        background-color: #ccc;
+    }
+
+    div.panel {
+        max-height: 0px;
+        overflow: hidden;
+        transition:  0.2s ease-out;
+      }
+        h3 {
+          font-family: $font-stack2;
+          font-size: 18px;
+          font-weight: bold;
+          line-height: 1.5;
+          letter-spacing: 0.9px;
+          text-align: left;
+          color: #101010;
+          padding-top: 32px;
+        }
+        p {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 1.69;
+          letter-spacing: 0.8px;
+        }
+        h5 {
+          font-family: $font-stack2;
+          font-size: 16px;
+          font-weight: bold;
+          letter-spacing: 0.8px;
+          color: #ffae00;
+        }
+        h4 {
+          font-family: $font-stack;
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 1.69;
+          letter-spacing: 0.8px;
+        }  
+
 }
 
 
@@ -194,5 +249,62 @@
 .speakers-sessions-container {
   margin-left: 30%;
 }
+
+button.accordion {
+    background-color: white;
+    color: #ffae00;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+div.panel {
+    max-height: 0px;
+    overflow: hidden;
+    transition:  0.2s ease-out;
+  }
+    h3 {
+      font-family: $font-stack2;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 0.9px;
+      text-align: left;
+      color: #101010;
+      padding-top: 32px;
+    }
+    p {
+      font-family: $font-stack;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.69;
+      letter-spacing: 0.8px;
+    }
+    h5 {
+      font-family: $font-stack2;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+      color: #ffae00;
+    }
+    h4 {
+      font-family: $font-stack;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.69;
+      letter-spacing: 0.8px;
+    }
+
+
 
 }
