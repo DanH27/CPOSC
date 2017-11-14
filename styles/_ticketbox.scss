@@ -50,8 +50,11 @@
     height: 200px;
     background-color: #ffae00;
     padding-right: 10px;
-  }
+    position: -webkit-sticky;  // required for Safari
+    position: sticky;
+    top: 0; // required as well.
 
+  }
   .available {
     width: 239px;
     height: 46px;
