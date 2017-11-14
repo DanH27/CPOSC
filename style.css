@@ -792,11 +792,10 @@ table {
       height: 25px;
       width: 14px; }
 
-
   .host-sponsers-container h2 {
     float: right;
     margin-top: -220px;
-    padding-right: 405px; } }
+    padding-right: 405px; }
 
   .btn {
     display: none; }
@@ -806,7 +805,6 @@ table {
 
   .dropdown {
     display: none; } }
-
 @media only screen and (max-width: 767px) {
   .conference-locations-container {
     width: 100%;
@@ -1239,7 +1237,10 @@ table {
     display: none; }
 
   span {
-    font-weight: bold; } }
+    font-weight: bold; }
+
+  .sponsor-desktop-only {
+    display: none; } }
 @media only screen and (min-width: 768px) {
   .sponser-container {
     width: 90%;
